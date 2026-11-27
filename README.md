@@ -1,5 +1,5 @@
 # xum1541-7406
-<img src="images/module-left.jpg" alt="Sample" width="800">
+<img src="images/module-left.jpg" width="800">
 
 ## Overview
 This is an implementation of the xum1541 module that is described in the [OpenCBM/xum1541](https://github.com/OpenCBM/OpenCBM/tree/master/xum1541) repository, allowing you to transfer data to/from a 1541/1571/1581 disk drive over USB.  This does not make your Commodore disk drive a USB device, but rather allows communication with it via the [OpenCBM](https://github.com/OpenCBM/OpenCBM) tools.  The module uses a 5V/16MHz Arduino Pro Micro (or compatible) board to run the firmware, and uses a 7406 logic circuit to allow for multiple connections on the IEC serial bus.
